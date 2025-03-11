@@ -1450,8 +1450,13 @@ circle:nth-child(2) {
 
   /* Sección Logos */
   .flex-logos {
-    gap: 50px; /* Reduce el espacio entre logos */
-    padding: 1rem; /* Añade padding */
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+    margin: 2em 0;
   }
 
   .block-logos img {
