@@ -1457,6 +1457,7 @@ circle:nth-child(2) {
     align-items: center;
     gap: 190px;
     margin: 2em 0;
+    height: 200px;
   }
 
   .block-logos img {
