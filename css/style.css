@@ -446,6 +446,10 @@ a {
   width: 35px;
 }
 /** Seccion Logos **/
+
+
+
+
 /** Contenedor principal **/
 .logos-container {
   width: 100%;
@@ -460,6 +464,7 @@ a {
   gap: 190px; /* Espacio entre logos */
   width: max-content; /* Ancho basado en el contenido */
   animation: scrollLogos 10s linear infinite; /* Animación infinita */
+  height: 200px;
 }
 
 /** Estilos para los logos **/
@@ -1450,12 +1455,8 @@ circle:nth-child(2) {
 
   /* Sección Logos */
   .flex-logos {
-    display: flex;
-    flex-wrap: wrap;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-    gap: 190px;
+    gap: 50px; /* Reduce el espacio entre logos */
+    padding: 1rem; /* Añade padding */
   }
 
   .block-logos img {
