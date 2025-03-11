@@ -71,6 +71,50 @@ a {
   height: 85px;
   padding: 5px 4%;
 }
+
+/* Ocultar elementos inicialmente */
+.logo-bloque,
+.nav-principal ul li,
+.button-navegacion {
+  opacity: 0;
+  transform: translateY(50px); /* Desplazado hacia abajo */
+}
+
+/* Animación para revelar los elementos */
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* Comienza 50px más abajo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Termina en su posición original */
+  }
+}
+
+/* Aplicar animación con retrasos */
+.logo-bloque-rotar {
+  animation: slideInFromBottom 0.5s ease-out 0.01s forwards;
+}
+
+.nav-principal ul li:nth-child(1) {
+  animation: slideInFromBottom 0.5s ease-out 0.2s forwards;
+}
+
+.nav-principal ul li:nth-child(2) {
+  animation: slideInFromBottom 0.5s ease-out 0.3s forwards;
+}
+
+.nav-principal ul li:nth-child(3) {
+  animation: slideInFromBottom 0.5s ease-out 0.4s forwards;
+}
+
+.nav-principal ul li:nth-child(4) {
+  animation: slideInFromBottom 0.5s ease-out 0.5s forwards;
+}
+.button-navegacion {
+  animation: slideInFromBottom 0.5s ease-out 0.6s forwards;
+}
 .logo-navegacion {
   display: flex;
 }
@@ -85,45 +129,6 @@ a {
   font-size: 17.5px;
   font-weight: 500;
 }
-
-.language-menu {
-  position: relative;
-  display: inline-block;
-}
-
-.language-trigger {
-  cursor: pointer;
-}
-
-.language-dropdown {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.language-dropdown li a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.language-dropdown li a:hover {
-  background-color: #f1f1f1;
-}
-
-.language-menu:hover .language-dropdown {
-  display: block;
-}
-
-
-
 .button-navegacion {
   display: flex;
 }
@@ -168,6 +173,7 @@ a {
   background-color: #000000;
   color: #ffffff;
 }
+
 /* Botones dentro de la imagen */
 
 .button-float {
@@ -242,13 +248,40 @@ a {
   align-items: center;
   margin: 6rem 0 6rem 12rem;
 }
-.container-margen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 6rem 12rem 6rem 0;
+/* Animación para el contenido */
+.ultimate-inicio .flex-container .container h2,
+.ultimate-inicio .flex-container .parrafo p,
+.ultimate-inicio .guide-container {
+  opacity: 0; /* Inicialmente oculto */
+  transform: translateY(50px); /* Desplazado hacia abajo */
+  animation: fadeInUp 1s ease-out forwards; /* Aplicar animación */
 }
+
+/* Retrasos para cada elemento */
+.ultimate-inicio .flex-container .container h2 {
+  animation: slideInFromBottom 0.7s ease-out 0.65s forwards; /* Retraso para el título */
+}
+
+.ultimate-inicio .flex-container .parrafo p {
+  animation: slideInFromBottom 0.7s ease-out 0.7s forwards; /* Retraso para el título */
+}
+
+.ultimate-inicio .guide-container {
+  animation: slideInFromBottom 0.7s ease-out 0.8s forwards; /* Retraso para el título */
+}
+
+/* Definición de la animación */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .container-ultimate {
   display: flex;
   flex-direction: column;
@@ -261,6 +294,7 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
 }
+
 /* boton logo - onmitrix*/
 
 .onmitrix-logo {
@@ -412,17 +446,25 @@ a {
   width: 35px;
 }
 /** Seccion Logos **/
+/** Contenedor principal **/
+.logos-container {
+  width: 100%;
+  overflow: hidden; /* Oculta el desbordamiento de los logos */
+  position: relative;
+}
+
+/** Contenedor de logos **/
 .flex-logos {
   display: flex;
-  flex-wrap: wrap;
-  height: 200px;
-  justify-content: center;
   align-items: center;
-  gap: 190px;
-  margin: 2em 0;
+  gap: 190px; /* Espacio entre logos */
+  width: max-content; /* Ancho basado en el contenido */
+  animation: scrollLogos 10s linear infinite; /* Animación infinita */
 }
+
+/** Estilos para los logos **/
 .block-logos img {
-  height: 60px;
+  height: 50px;
 }
 /** Contenido Deliver **/
 .container-flex-deliver {
@@ -614,6 +656,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   margin: 25px 10px;
 }
+
 /*Propiedades para los logos en centralize your communication*/
 .logo-fondo img {
   background-color: #3a3a3a;
@@ -1319,4 +1362,207 @@ circle:nth-child(2) {
 .button-lange img {
   width: 30px;
   height: 30px;
+}
+
+/* Media Queries para Tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Ajustes generales */
+  body {
+    font-size: 1.8rem; /* Aumenta el tamaño de la fuente para mejor legibilidad */
+  }
+  /* Responsive: Mostrar ícono del menú en pantallas pequeñas */
+  .nav-principal,
+  .button-bloque {
+    display: none;
+  }
+  .checkbtn {
+    display: block;
+  }
+
+  /* Contenido Ultimate */
+  .ultimate-inicio {
+    margin: 0 2rem; /* Reduce el margen */
+    border-radius: 3rem; /* Ajusta el radio de borde */
+  }
+
+  .flex-container {
+    margin: 3rem 0 3rem 2rem; /* Ajusta el margen */
+  }
+
+  .container-margen {
+    margin: 3rem 2rem 3rem 0; /* Ajusta el margen */
+  }
+
+  /* Ajustes para clip-path en .guide-container */
+  .guide-container {
+    width: 100%; /* Ajusta el ancho */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    clip-path: none; /* Elimina clip-path para tablets */
+    border-radius: 2rem; /* Añade bordes redondeados */
+  }
+
+  .subtitulo-guide h3,
+  .subtitulo-guide p,
+  .subtitulo-guide a {
+    margin: 2rem 2rem; /* Ajusta el margen */
+  }
+
+  .container-height-flex {
+    flex-direction: column; /* Cambia la dirección de flex a columna */
+    width: 100%; /* Ajusta el ancho */
+  }
+
+  .color-verde-500,
+  .color-negro-500 {
+    width: 100%; /* Ajusta el ancho */
+    margin-bottom: 20px; /* Añade margen inferior */
+  }
+
+  /* Ajustes para clip-path en .clase */
+  .clase {
+    width: 100%; /* Ajusta el ancho */
+    height: 400px; /* Reduce la altura */
+    clip-path: none; /* Elimina clip-path para tablets */
+    border-radius: 2rem; /* Añade bordes redondeados */
+  }
+
+  .button-tutorial {
+    margin: -66px 0 0 2rem; /* Ajusta la posición */
+  }
+
+  /* Sección Logos */
+  .flex-logos {
+    gap: 50px; /* Reduce el espacio entre logos */
+    padding: 1rem; /* Añade padding */
+  }
+
+  .block-logos img {
+    height: 40px; /* Reduce el tamaño de los logos */
+  }
+
+  /* Contenido Deliver */
+  .container-flex-deliver {
+    flex-direction: column; /* Cambia la dirección de flex a columna */
+    margin: 0 2rem; /* Ajusta el margen */
+  }
+
+  .container-grid {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+    margin: 3rem 2rem; /* Ajusta el margen */
+  }
+
+  .text-deliver-h5 {
+    width: 100%; /* Ajusta el ancho */
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+
+  .logo-deliver {
+    grid-template-columns: repeat(2, 1fr); /* Cambia a dos columnas */
+    gap: 10px; /* Añade espacio entre elementos */
+  }
+
+  .container-white-flex,
+  .container-centralize-bg,
+  .container-always-flex,
+  .container-circle {
+    padding: 20px; /* Reduce el padding */
+  }
+
+  /* Ajustes para clip-path en .container-throughout */
+  .container-throughout {
+    margin: 20px; /* Ajusta el margen */
+    width: 100%; /* Ajusta el ancho */
+    height: auto; /* Ajusta la altura automáticamente */
+    clip-path: none; /* Elimina clip-path para tablets */
+    border-radius: 3rem; /* Añade bordes redondeados */
+  }
+
+  .aside-throughout {
+    width: 100%; /* Ajusta el ancho */
+    margin: 20px; /* Ajusta el margen */
+  }
+
+  .gri-blocks {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+  }
+
+  .article-button {
+    margin: 2rem; /* Ajusta el margen */
+  }
+
+  /* Ajustes para clip-path en .rotar */
+  .rotar {
+    width: 100%; /* Ajusta el ancho */
+    height: 400px; /* Reduce la altura */
+    clip-path: none; /* Elimina clip-path para tablets */
+    border-radius: 2rem; /* Añade bordes redondeados */
+  }
+
+  .rotar-card {
+    width: 100%; /* Ajusta el ancho */
+    margin: 20px; /* Ajusta el margen */
+  }
+
+  /* Contenido Templates */
+  .site-templates {
+    margin: 20px; /* Ajusta el margen */
+  }
+
+  .container-cards {
+    flex-direction: column; /* Cambia la dirección de flex a columna */
+    gap: 20px; /* Añade espacio entre elementos */
+  }
+
+  .imagen-template,
+  .imagen-template-two,
+  .imagen-template-tree {
+    width: 100%; /* Ajusta el ancho */
+    height: auto; /* Ajusta la altura automáticamente */
+    clip-path: none; /* Elimina clip-path para tablets */
+    border-radius: 2rem; /* Añade bordes redondeados */
+  }
+
+  /* Contenido Take */
+  .container-take {
+    margin: 20px; /* Ajusta el margen */
+    width: 100%; /* Ajusta el ancho */
+    height: auto; /* Ajusta la altura automáticamente */
+    clip-path: none; /* Elimina clip-path para tablets */
+    border-radius: 3rem; /* Añade bordes redondeados */
+  }
+
+  .container-take-your {
+    padding: 20px; /* Reduce el padding */
+  }
+
+  .flex-take-control {
+    flex-direction: column; /* Cambia la dirección de flex a columna */
+    gap: 10px; /* Añade espacio entre elementos */
+  }
+
+  /* Footer */
+  .site-footer {
+    margin: 20px; /* Ajusta el margen */
+    padding: 20px; /* Reduce el padding */
+  }
+
+  .footer-flex {
+    flex-direction: column; /* Cambia la dirección de flex a columna */
+    gap: 20px; /* Añade espacio entre elementos */
+  }
+
+  .footer-menu-ai {
+    margin-left: 0; /* Elimina el margen izquierdo */
+    width: 100%; /* Ajusta el ancho */
+  }
+
+  .footer-button {
+    flex-direction: column; /* Cambia la dirección de flex a columna */
+    gap: 10px; /* Añade espacio entre elementos */
+  }
+
+  .button-lange {
+    padding: 10px 20px; /* Reduce el padding */
+  }
 }
