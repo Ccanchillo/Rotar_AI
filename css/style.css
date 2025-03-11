@@ -1175,12 +1175,29 @@ circle:nth-child(2) {
 .clip-path-messi {
   background-image: url(../img/joven\ 1.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  margin: -750px 0 0 170px;
-  width: 900px;
+  background-size: 100%;
+  background-position-x: 0px;
+  background-position-y: -130px;
+  margin: -750px 0 0 50px;
+  width: 800px;
   height: 700px;
+  clip-path: path(
+    "M 44.44 700 Q 0 700 0 650 V150 Q 0 100 44.44 100 Q 88.89 100 88.89 50 Q 88.89 0 133.33 0 H755.56 Q 800 0 800 50 V500 Q 800 550 755.56 550 H666.67 Q 622.22 550 622.22 600 V650 Q 622.22 700 577.78 700"
+  );
 }
+.clip-path-Was {
+  position: absolute;
+  margin: -750px 0 0 1000px;
+  background-position-x: 0px;
+  background-position-y: -130px;
+  background-color: #00ff80;
+  width: 1000px;
+  height: 500px;
+  clip-path: path("M 50 500 Q 0 500 0 450 V35 Q 0 0 35 0 H400 Q 435 0 435 35 Q 435 70 470 70 H950 Q 1000 70 1000 120 V420 Q 1000 470 950 470 H600 Q 585 470 585 485 Q 585 500 570 500"
+
+  );
+}
+
 .top-container {
   position: absolute;
   color: #616161;
