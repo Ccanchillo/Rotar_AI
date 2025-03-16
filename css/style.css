@@ -132,6 +132,7 @@ a {
   font-size: 17.5px;
   font-weight: 500;
 }
+/*
 .language-menu {
   position: relative;
   display: inline-block;
@@ -161,9 +162,31 @@ a {
 }
 .language-menu:hover .language-dropdown {
   display: block;
+}*/
+
+/** CONTENIDO BOTÓN IDIOMA**/
+.language-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
-
-
+.language-btn:hover {
+  transform: scale(1.1);
+}
+.language-btn img {
+  width: 30px;
+  height: 30px;
+}
 
 .button-navegacion {
   display: flex;
@@ -246,6 +269,7 @@ a {
     "M 67.5 640 Q 0 640 0 576 V 64 Q 0 0 67.5 0 H 731.25 Q 787.5 0 787.5 42.67 Q 787.5 85.33 843.75 85.33 Q 900 85.33 900 128 V 525.67 Q 900 563.33 855 563.33 H 580 Q 550 563.33 550 600 Q 550 640 520 640 Z"
   );
 }
+
 .button-tutorial {
   position: absolute;
   margin: -66px 0 0 56rem;

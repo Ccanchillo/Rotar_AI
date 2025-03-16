@@ -4,17 +4,16 @@
         "solutions": "Soluciones",
         "resources": "Recursos",
         "pricing": "Precios",
-        "language": "Lenguaje",
         "login": "Acceso",
         "book": "Solicitar prueba" 
     },
 
-    "main": {
-        "title1": "La última IA para servicio al cliente",
+    "section1": {
+        "title1": "Lo Último En IA Para Servicio Al Cliente",
 
         "paragraph1": "Adopte la tecnología de chatbot de Al en una herramienta de comunicación compatible con GPT-4 para ayudar a sus clientes, empoderar a su equipo y reducir su carga de trabajo.",
 
-        "caption1": "Guía: Manual del tutorial de Rotor AI",
+        "caption1": "Guía: Manual del tutorial de Rotar AI",
 
         "paragraph2": "Todo lo que necesitas saber sobre los primeros pasos en los chatbots.",
 
@@ -24,101 +23,99 @@
 
         "paragraph3": "Las grandes empresas utilizan Rotor AI para sus servicios",
 
-        "caption2": "Servicios al cliente impulsados ​​por IA",
+        "caption2": "Servicios al cliente impulsados por IA"
+    },
 
-        "title2": "Ofrecer una experiencia de cliente de alta calidad",
+    "section2": {
+        "title1": "Ofrecer una experiencia de cliente de alta calidad",
 
-        "paragraph4": "Adopte la tecnología de chatbot de Al en una herramienta de comunicación compatible con GPT-4 para ayudar a sus clientes, empoderar a su equipo y reducir su carga de trabajo.",
+        "paragraph1": "Adopte la tecnología de chatbot de Al en una herramienta de comunicación compatible con GPT-4 para ayudar a sus clientes, empoderar a su equipo y reducir su carga de trabajo.",
 
-        "caption3": "Automatice su flujo de trabajo con nuestras integraciones",
+        "caption1": "Automatice su flujo de trabajo con nuestras integraciones",
 
-        "paragraph5": "Conecte Rotar Al con sus herramientas de servicio al cliente, ventas, marketing y reclutamiento utilizando nuestra API fácil de usar, webhooks o integración con Zapier.",
+        "paragraph2": "Conecte Rotar Al con sus herramientas de servicio al cliente, ventas, marketing y reclutamiento utilizando nuestra API fácil de usar, webhooks o integración con Zapier.",
 
-        "paragraph6": "He olvidado mi contraseña",
+        "paragraph3": "He olvidado mi contraseña",
 
-        "paragraph7": "No te preocupes, todos hemos estado en una situación triste como esa. Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en ¿Olvidaste tu contraseña? Luego, ingresa la dirección de correo electrónico y síguela.",
+        "paragraph4": "No te preocupes, todos hemos estado en una situación triste como esa. Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en ¿Olvidaste tu contraseña? Luego, ingresa la dirección de correo electrónico y síguela.",
 
-        "paragraph8": "Aumenta las conversaciones en un 96% con Al",
+        "paragraph5": "Aumenta las conversaciones en un 96% con Al",
 
-        "paragraph9": "Nuestros chatbots y herramientas de automatización impulsados ​​por IA están aquí para ayudar.",
+        "paragraph6": "Nuestros chatbots y herramientas de automatización impulsados por IA están aquí para ayudar.",
 
-        "caption4": "Centraliza tu comunicación",
+        "caption2": "Centraliza tu comunicación",
 
-        "paragraph10": "Responde fácilmente a los chats de todos tus canales en una sola descripción general.",
+        "paragraph7": "Responde fácilmente a los chats de todos tus canales en una sola descripción general.",
 
-        "caption5": "Siempre accesible con nuestro chat en vivo.",
+        "caption3": "Siempre accesible con nuestro chat en vivo.",
 
-        "paragraph11": "Mejore la comunicación con el chat en vivo en tiempo real.",
+        "paragraph8": "Mejore la comunicación con el chat en vivo en tiempo real.",
 
-        "caption6": "CONVERSACIÓN EMPLEADO",
+        "caption4": "CONVERSACIÓN EMPLEADO",
 
-        "caption7": "Obtenga información valiosa de su audiencia",
+        "caption5": "Obtenga información valiosa de su audiencia",
 
-        "paragraph12": "Las estadísticas proporcionan información valiosa sobre cómo los clientes interactúan con Rotar IA.",
+        "paragraph9": "Las estadísticas proporcionan información valiosa sobre cómo los clientes interactúan con Rotar IA."
+    },
 
-        "paragraph13": "A lo largo de todo el recorrido de compra de su cliente, Rotar Al le permite deleitarlo en cada paso del camino, desde su primera visita hasta la compra final.",
+    "section3": {
+        "paragraph1": "A lo largo de todo el recorrido de compra de su cliente, Rotar Al le permite deleitarlo en cada paso del camino, desde su primera visita hasta la compra final.",
 
-        "button2": "Empezar",
+        "button1": "Empezar",
 
-        "title3": "Redefiniendo las conversaciones y mejorando la experiencia del usuario",
+        "title1": "Reinventando Diálogos, Mejorando la Experiencia del Cliente",
 
-        "caption8": "Comprometer",
+        "caption1": "Comprometer",
 
-        "paragraph14": "Comuníquese con los visitantes de manera proactiva mediante saludos personalizados de chatbot. Convierta las visitas al sitio web en oportunidades de venta.",
+        "paragraph2": "Contacta a tus visitantes de forma proactiva con saludos personalizados de chatbot. Convierte las visitas a tu sitio web en oportunidades de venta.",
 
-        "caption9": "Nutrir",
+        "caption2": "Nutrir",
 
-        "paragraph15": "Guíe a los clientes hacia una venta a través de compras recomendadas y ofertas personalizadas.",
+        "paragraph3": "Guíe a los clientes hacia una venta a través de compras recomendadas y ofertas personalizadas.",
 
-        "caption10": "Calificar",
+        "caption3": "Calificar",
 
-        "paragraph16": "Genere y califique prospectos automáticamente. Transfiera prospectos con alta intención de compra a sus representantes de ventas en tiempo real para acortar el ciclo de ventas.",
+        "paragraph4": "Automatice la generación y calificación de clientes. Dirija clientes potenciales a su equipo de ventas en tiempo real, para acelerar el ciclo de venta.",
 
         "article1": "En línea",
 
-        "paragraph17": "No te preocupes, todos hemos estado en una situación triste como esa. Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en ¿Olvidaste tu contraseña? Luego, ingresa la dirección de correo electrónico y síguela.",
+        "paragraph5": "No te preocupes, todos hemos estado en una situación triste como esa. Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en ¿Olvidaste tu contraseña? Luego, ingresa la dirección de correo electrónico y síguela.",
 
         "solution": "Soluciones",
         "services": "Servicios",
         "call": "Reservar una llamada",
-        "complain": "Quejarse",
-
-        "title4": "Utilice <span>plantillas</span> para comenzar su proyecto",
-
-        "1": "CARTA UNO",
-        "paragraph18": "Genial, me alegro de poder ayudarte a encontrar el plan adecuado para ti. ¿Qué buscas hacer con Rotor AI?",
-
-        "paragraph19": "Obtenga más clientes en mi página web",
-
-        "caption11": "Chatbot para marketing",
-
-        "paragraph20": "Proporcionar recomendaciones y procesar transacciones en un chat.",
-
-        "button3": "Pruebe plantillas gratis",
-
-        "2": "CARTA DOS",
-
-        "paragraph21": "¡Estás calificado para la siguiente ronda de entrevistas, Álvarez! Por favor, infórmanos de tu disponibilidad.",
-
-        "paragraph22": "En cualquier momento entre las 2 y las 5 p. m. mañana",
-
-        "caption12": "Chatbot para RRHH",
-
-        "paragraph23": "Encuentra talento e interactúa con candidatos de forma innovadora",
-
-        "title6": "Tome el control de su productividad con un chatbot GPT-4 ahora",
-
-        "paragraph24": "Transforme su servicio de atención al cliente con la solución de chatbot de Rotar basada en AL y GPT-4. Pruébela gratis ahora.",
-
-        "button4": "Contáctanos"
-
+        "complain": "Quejarse"
     },
 
-    "section": {
+    "section4": {
+        "title1": "Utilice plantillas para comenzar su proyecto",
+
+        "1": "CARTA UNO",
+        "paragraph1": "Genial, me alegro de poder ayudarte a encontrar el plan adecuado para ti. ¿Qué buscas hacer con Rotor AI?",
+
+        "paragraph2": "Obtenga más clientes en mi página web",
+
+        "caption1": "Chatbot para marketing",
+
+        "paragraph3": "Proporcionar recomendaciones y procesar transacciones en un chat.",
+
+        "button1": "Pruebe plantillas gratis",
+
+        "2": "CARTA DOS",
+        "paragraph4": "¡Estás calificado para la siguiente ronda de entrevistas, Álvarez! Por favor, infórmanos de tu disponibilidad.",
+
+        "paragraph5": "En cualquier momento entre las 2 y las 5 p. m. mañana",
+
+        "caption2": "Chatbot para RRHH",
+
+        "paragraph6": "Encuentra talento e interactúa con candidatos de forma innovadora"
+    },
+
+    "section5": {
 
         "paragraph1": "Únase al creciente número de empresas y compañías que han experimentado el impacto transformador de nuestros servicios de chatbot.",
 
-        "title5" : "Lo que las empresas de primer nivel dicen de nuestro producto",
+        "title1" : "Empresas líderes respaldan nuestro producto",
 
         "paragraph2": "Fundador de la tienda ERC Music Market",
 
@@ -127,7 +124,14 @@
         "paragraph3": "Me sorprendió el nivel de asistencia que recibí del chatbot de AL proporcionado por ROTAR IA. Comprendió rápidamente mis preguntas y brindó respuestas precisas y útiles.",
 
         "button2": "Ver más testimonios"
+    },
 
+    "section6": {
+        "title1": "Toma el control de tu productividad con un chatbot GPT-4 ahora",
+
+        "paragraph1": "Transforme su servicio de atención al cliente con la solución de chatbot de Rotar basada en AL y GPT-4. Pruébela gratis ahora.",
+
+        "button1": "Contáctanos"
     },
 
     "footer": {
